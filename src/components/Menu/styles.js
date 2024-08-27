@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
 import styled, { css } from 'styled-components';
 import { Container as SectionContainer } from '../SectionContainer/styles';
 import { Title as Heading } from '../Heading/styles';
 
-const menuVisible = (theme) => css`
+const menuVisible = () => css`
     visibility: visible;
     opacity: 1;
 `;
