@@ -11,8 +11,9 @@ exports[`<SectionContainer /> should render content 1`] = `
   <div
     class="c0"
   >
-    <h1 />
-    Children
+    <h1>
+      Children
+    </h1>
   </div>
 </div>
 `;
