@@ -44,7 +44,7 @@ export const Container = styled.div`
                 overflow-y: auto;
             }
 
-            & ${Heading} {
+            & ${Heading}{
                 padding-bottom: ${theme.spacings.large};
                 display: flex;
                 justify-content: center;
