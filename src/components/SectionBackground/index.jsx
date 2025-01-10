@@ -8,7 +8,7 @@ export const SectionBackground = ({
   sectionId = '',
 }) => {
   return (
-    <Styled.Container background={background} sectionId={sectionId}>
+    <Styled.Container background={background} id={sectionId}>
       <SectionContainer>{children}</SectionContainer>
     </Styled.Container>
   );
